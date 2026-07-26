@@ -279,8 +279,8 @@ let brushYears  = null;  // [yearStart, yearEnd] or null
 
 // DATA LOADING & PROCESSING
 Promise.all([
-  d3.csv('olympic_medals.csv'),
-  d3.csv('olympic_hosts.csv')
+  d3.csv('data/olympic_medals.csv'),
+  d3.csv('data/olympic_hosts.csv')
 ]).then(([medals, hosts]) => {
 
   // Step 1: Build host lookup
