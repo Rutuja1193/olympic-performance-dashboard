@@ -56,7 +56,7 @@ All processing happens in the browser via `d3.csv()` — no pre-processed files:
 > **Important:** Must be served via HTTP — do not open `index.html` directly by double-clicking.
 
 ```bash
-cd olympic-dashboard
+cd olympic-performance-dashboard
 python3 -m http.server 8000
 ```
 Then open [http://localhost:8000](http://localhost:8000) in Chrome.
@@ -70,7 +70,7 @@ Then open [http://localhost:8000](http://localhost:8000) in Chrome.
 ## Project Structure
 
 ```
-olympic-dashboard/
+olympic-performance-dashboard/
 ├── index.html           ← D3 webapp 
 ├── data/
 │   ├── olympic_medals.csv    ← medals dataset
